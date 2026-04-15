@@ -20,7 +20,7 @@ const config = {
     icons: ['https://tarot.prohetamine.ru/icon.svg']
   },
   projectId: '1febfd92481d4ea997711d2ac4a363c0',
-  host: '/crypto-tarot/'
+  host: '/crypto-tarot-testnet-00000/'
 }
 
 createRoot(document.getElementById('root')).render(
