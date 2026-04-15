@@ -17,6 +17,7 @@ const Item = memo(({ data, copyId, onDelete }) => {
     const prediction = Redstone.useReadNote('prediction', {
         copyId: hashId,
         stas: true,
+        paymentAddress: '0xbcfA1b80C39F9a378b12b257934BE409Bc93eC60',
         once: true,
         randomHash: true,
         watch: false,

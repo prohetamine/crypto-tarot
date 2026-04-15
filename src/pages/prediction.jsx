@@ -45,6 +45,7 @@ const Prediction = () => {
     const prediction = Redstone.useNote('prediction', {
         copyId: hashId,
         stas: true,
+        paymentAddress: '0xbcfA1b80C39F9a378b12b257934BE409Bc93eC60',
         once: true,
         randomHash: true,
         cache: 60 * 1000 * 30

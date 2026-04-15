@@ -16,8 +16,8 @@ const config = {
   metadata: {
     name: 'Crypto Tarot',
     description: 'Web3 DApp tarot',
-    url: 'https://prohetamine.github.io/crypto-tarot/',
-    icons: ['https://prohetamine.github.io/crypto-tarot/icon.svg']
+    url: 'https://tarot.prohetamine.ru',
+    icons: ['https://tarot.prohetamine.ru/icon.svg']
   },
   projectId: '1febfd92481d4ea997711d2ac4a363c0',
   host: '/crypto-tarot/'
