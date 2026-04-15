@@ -39,7 +39,7 @@ const Prediction = () => {
         , [address, index, chainId] = atob(dataBase64.replace(/_/gi, '=')).split(',')
         , hashId = md5(dataBase64)
 
-    const cert = Redstone.useCertificate('prediction')
+    const cert = Redstone.useCertificate('prediction', { paymentAddress: '0xbcfA1b80C39F9a378b12b257934BE409Bc93eC60' })
         , confirm = useStasPay()
 
     const prediction = Redstone.useNote('prediction', {
